@@ -7,10 +7,7 @@
 .app__navbar-left {
     display: flex;
     align-items: center;
-}
-
-.app__navbar-left_logo {
-    margin-right: 4rem;
+    gap: 8rem;
 }
 
 .app__navbar-left_logo,
@@ -44,7 +41,16 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
+    color: #1F1F1F;
+}
+
+.app__navbar-left_searchBar input::placeholder {
     color: #B7B7B7;
+}
+
+.app__navbar-links {
+    display: flex;
+    gap: 5rem;
 }
 
 .app__navbar-links .link:first-child {

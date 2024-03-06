@@ -5,6 +5,7 @@ import logoFigure1 from '../../assets/logo/Polygon 1.svg';
 import logoFigure2 from '../../assets/logo/Polygon 2.svg';
 import logoFigure3 from '../../assets/logo/Polygon 3.svg';
 import searchIcon from '../../assets/ri_search-line.svg';
+
 export function Navbar() {
     return (
         <div className="app__navbar section__padding">
@@ -20,8 +21,8 @@ export function Navbar() {
                 </div>
             </div>
             <div className="app__navbar-links">
-                <Link to={'/explore'} className="link" style={{marginRight: '4rem'}}>Explore</Link>
-                <Link to={'/trending'} className="link" style={{marginRight: '4rem'}}>Trending🔥</Link>
+                <Link to={'/explore'} className="link">Explore</Link>
+                <Link to={'/trending'} className="link">Trending🔥</Link>
                 <Link to={'/FAQ'} className="link">FAQ</Link>
             </div>
         </div>
