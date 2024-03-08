@@ -5,10 +5,11 @@ import logoFigure1 from '../../assets/logo/Polygon 1.svg';
 import logoFigure2 from '../../assets/logo/Polygon 2.svg';
 import logoFigure3 from '../../assets/logo/Polygon 3.svg';
 import searchIcon from '../../assets/ri_search-line.svg';
+import backgroundImage from '../../assets/header-background.svg';
 
 export function Navbar() {
     return (
-        <div className="app__navbar section__padding">
+        <div className="app__navbar section__padding" style={{background: `url(${backgroundImage})`}}>
             <div className="app__navbar-left">
                 <Link className="app__navbar-left_logo" to={'/'}>
                     <img src={logoFigure1} alt="logo Figure 1"/>

@@ -1,0 +1,129 @@
+.app__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.app__header-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    margin: 1rem 0;
+}
+
+.app__header-info_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__header-info_text p:first-child {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.31em;
+
+    color: #6B6B6B;
+}
+
+.app__header-info_text h1 {
+    font-family: 'Clash Display';
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 77px;
+    letter-spacing: -0.005em;
+    color: #000000;
+}
+
+.app__header-info_text p:last-child {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+
+    color: #6B6B6B;
+}
+
+.app__header-info_text-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 19.007px;
+    gap: 1rem;
+    width: 40%;
+    background: linear-gradient(108.39deg, #FF56BB 6.99%, #FF8F77 119.86%);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 500ms ease;
+} 
+
+.app__header-info_text-button:hover {
+    transform: scale(105%);
+}
+
+.app__header-info_text-button p {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+.app__header-image {
+    position: relative;
+    width: 40%;
+}
+
+.app__header-image > img:first-child {
+    width: 100%;
+}
+
+.big-ball {
+    position: absolute;
+    width: 150px;
+    left: -75px;
+    bottom: -20px;
+}
+
+.small-ball {
+    position: absolute;
+    width: 100px;
+    top: -20px;
+    right: -50px;
+}
+
+.app__header-image_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 10px;
+
+    position: absolute;
+    width: 100px;
+    height: 14px;
+    left: -50px;
+    top: 40px;
+
+    background: #FFFFFF;
+    box-shadow: 10px 11px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 15.7415px;
+}
+
+.app__header-image_info img {
+    height: 20px;
+}
+
+.app__header-image_info p {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 10px;
+    color: #000000;
+}
+
+

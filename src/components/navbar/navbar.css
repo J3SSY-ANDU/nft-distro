@@ -35,8 +35,8 @@
     width: 180px;
     font-family: 'DM Sans';
     font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 24px;
     color: #1F1F1F;
 }
 
@@ -53,8 +53,8 @@
     all: unset;
     font-family: 'DM Sans';
     font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 24px;
     color: #000000;
     cursor: pointer;
 }
@@ -65,8 +65,8 @@
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 24px;
     color: #6B6B6B;
     cursor: pointer;
 }
