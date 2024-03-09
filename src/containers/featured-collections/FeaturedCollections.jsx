@@ -4,7 +4,7 @@ import './featuredCollections.css';
 export function FeaturedCollections() {
     return (
         <div className='app__featuredCollections'>
-            <h1>FeaturedCollections</h1>
+            <h1>Featured Collections</h1>
         </div>
     )
 }

@@ -8,7 +8,7 @@ import backgroundImage from '../../assets/header-background.svg';
 
 export function Header() {
     return (
-        <div className='app__header section__padding' style={{background: `url(${backgroundImage})`, backgroundSize: 'cover'}}>
+        <div className='app__header section__padding' style={{background: `url(${backgroundImage})`}}>
             <div className='app__header-info'>
                 <div className='app__header-info_text'>
                     <p>WEB 3 NON-FUNGIBLE TOKENS</p>

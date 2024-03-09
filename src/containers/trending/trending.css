@@ -1,0 +1,41 @@
+.app__trending {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.app__trending-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__trending-text h1 {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.003em;
+    color: #000000;
+}
+
+.app__trending-text p {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.app__trending-text p:hover {
+    color: #6B6B6B;
+}
+
+.app__trending-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
