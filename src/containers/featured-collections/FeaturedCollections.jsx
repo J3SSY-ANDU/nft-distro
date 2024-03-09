@@ -11,7 +11,7 @@ export function FeaturedCollections() {
             <div className='app__featuredCollections-cards'>
                 {collectionsInfo.map((collection, index) => {
                     return (
-                        <FeaturedCard collectionImage={collection.img} avatarImage={collection.avatarImage} avatarName={collection.avatarName} title={collection.title} description={collection.description} key={collection.title + index} />
+                        <FeaturedCard collectionImage={collection.img} avatarImage={collection.avatarImage} avatarName={collection.avatarName} collectionTitle={collection.title} description={collection.description} key={collection.title + index} />
                     )
                 })}
             </div>

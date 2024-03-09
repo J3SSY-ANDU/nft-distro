@@ -19,15 +19,15 @@ export function FeaturedCard({ collectionImage, avatarImage, avatarName, collect
                     <p>{description}</p>
                 </div>
                 <div className='app__featuredCard-content_bid'>
-                    <div className='app__featuredCard-content_bid-right'>
+                    <div className='app__featuredCard-content_bid-left'>
                         <p>Current Bid</p>
                         <div>
                             <img src={coinSymbol} alt='coin symbol'/>
                             <p>3.421</p>
                         </div>
                     </div>
-                    <div className='app__featuredCard-content_bid-left'>
-                        <p>Ends in</p>
+                    <div className='app__featuredCard-content_bid-right'>
+                        <p>End in</p>
                         <p>1h 12m 14s</p>
                     </div>
                 </div>
