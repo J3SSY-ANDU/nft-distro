@@ -1,6 +1,6 @@
 import React from 'react';
 import './card.css';
-import coinSymbol from '../../assets/coin.svg';
+import coinSymbol from '../../assets/darkCoin.svg';
 
 export function Card({ cardImage, cardTitle, avatarImage, avatarName }) {
     return (

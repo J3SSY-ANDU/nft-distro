@@ -1,0 +1,91 @@
+.app__leaderboard {
+    background: #191919;
+    margin: 4rem 0;
+}
+
+.app__leaderboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 12rem;
+    gap: 5rem;
+}
+
+.app__leaderboard-container_title {
+    text-align: center;
+}
+
+.app__leaderboard-container_title h1 {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.003em;
+    color: #FFFFFF;
+}
+
+.app__leaderboard-container_ranking {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.app__leaderboard-container_ranking-rank {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.app__leaderboard-container_ranking-rank:hover {
+    /* box-shadow: 0px 0px 20px #6b6b6b2b; */
+    transform: scale(105%);
+}
+
+.app__leaderboard-container_ranking-rank > img {
+    width: 100%;
+}
+
+.app__leaderboard-container_ranking-rank > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.app__leaderboard-container_ranking-rank div > p:first-child {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.app__leaderboard-container_ranking-rank div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.app__leaderboard-container_ranking-rank div div img {
+    width: 14px;
+}
+
+.app__leaderboard-container_ranking-rank div div p {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+
+    color: #FFFFFF;
+}

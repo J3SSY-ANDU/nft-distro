@@ -1,7 +1,7 @@
 import React from 'react';
 import './featuredCard.css';
 import wallet from '../../assets/wallet.svg';
-import coinSymbol from '../../assets/coin.svg';
+import coinSymbol from '../../assets/darkCoin.svg';
 export function FeaturedCard({ collectionImage, avatarImage, avatarName, collectionTitle, description }) {
     return (
         <div className='app__featuredCard'>

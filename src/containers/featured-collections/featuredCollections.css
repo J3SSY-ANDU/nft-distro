@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    overflow: hidden;
 }
 
 .app__featuredCollections-title {
@@ -23,4 +24,27 @@
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+    position: relative;
+}
+
+.app__featuredCollections-cards > div:first-child {
+    position: absolute;
+    left: -250px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.app__featuredCollections-cards > div:first-child img {
+    width: 100%;
+}
+
+.app__featuredCollections-cards > div:last-child {
+    position: absolute;
+    right: -250px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.app__featuredCollections-cards > div:last-child img {
+    width: 100%;
 }

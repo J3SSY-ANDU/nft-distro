@@ -4,6 +4,11 @@ import futureOfPolygonX from '../assets/futureOfPolygonX.svg';
 import blueWave2 from '../assets/blueWave2.svg';
 import perperzonAvatar from '../assets/perperzon-avatar.svg';
 import richardAvatar from '../assets/richard-avatar.svg';
+import ranking1 from '../assets/ranking1.svg';
+import ranking2 from '../assets/ranking2.svg';
+import ranking3 from '../assets/ranking3.svg';
+import ranking4 from '../assets/ranking4.svg';
+import ranking5 from '../assets/ranking5.svg';
 export { Header } from './header/Header';
 export { Trending } from './trending/Trending';
 export { Leaderboard } from './leaderboard/Leaderboard';
@@ -55,5 +60,33 @@ export const collectionsInfo = [
         avatarImage: perperzonAvatar,
         avatarName: "Perperzon",
         description: "We would like to present you The Exboot 3D - Watching you~"
+    }
+]
+
+export const rankingList = [
+    {
+        rankingImage: ranking1,
+        avatarName: "Perperzon",
+        coinAmount: "9.421"
+    },
+    {
+        rankingImage: ranking2,
+        avatarName: "Richard",
+        coinAmount: "8.421"
+    },
+    {
+        rankingImage: ranking3,
+        avatarName: "Anderson",
+        coinAmount: "7.421"
+    },
+    {
+        rankingImage: ranking4,
+        avatarName: "Michael",
+        coinAmount: "5.421"
+    },
+    {
+        rankingImage: ranking5,
+        avatarName: "Antonson",
+        coinAmount: "3.421"
     }
 ]
