@@ -1,0 +1,16 @@
+.app__featuredCollections {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.app__featuredCollections-title {
+    text-align: center;
+}
+
+.app__featuredCollections-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}

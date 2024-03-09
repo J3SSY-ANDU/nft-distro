@@ -23,7 +23,7 @@ export function Navbar() {
             </div>
             <div className="app__navbar-links">
                 <Link to={'/explore'} className="link">Explore</Link>
-                <Link to={'/trending'} className="link">Trending🔥</Link>
+                <Link to={'/explore'} className="link">Trending🔥</Link>
                 <Link to={'/FAQ'} className="link">FAQ</Link>
             </div>
         </div>
