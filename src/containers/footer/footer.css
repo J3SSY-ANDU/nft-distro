@@ -55,7 +55,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
+    gap: 0.3rem;
+} 
 
 .app__footer-info_right {
     display: flex;
