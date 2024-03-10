@@ -1,0 +1,49 @@
+.app__explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.app__explore-heading {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__explore-heading h1 {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.003em;
+
+    color: #000000;
+}
+
+.app__explore-heading div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 12px 22px;
+    border: 0.950352px solid #000000;
+    border-radius: 20px;
+}
+
+.app__explore-heading div p {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.app__explore-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 4rem;
+    column-gap: 2rem;
+}
