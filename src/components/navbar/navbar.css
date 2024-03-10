@@ -18,8 +18,8 @@
     margin-right: 4.2rem;
 }
 
-.app__navbar-left_logo img {
-    margin-right: 5px;
+.app__navbar-left_logo {
+    gap: 0.3rem;
 }
 
 .app__navbar-left_searchBar {
