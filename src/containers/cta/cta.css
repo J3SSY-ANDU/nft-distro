@@ -1,0 +1,63 @@
+.app__cta {
+    margin: 8rem 0 4rem 0;
+}
+
+.app__cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 4rem 6rem;
+    background: #151515;
+    border-radius: 30px;
+}
+
+.app__cta-container > img {
+    position: absolute;
+    left: -75px;
+    top: -75px;
+}
+
+.app__cta-container_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 50%;
+}
+
+.app__cta-container_text h1 {
+    font-family: 'Clash Display';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: -0.003em;
+
+    color: #FFFFFF;
+}
+
+.app__cta-container_text div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #FFFFFF;
+    padding: 12px 24px;
+    border-radius: 13px;
+    cursor: pointer;
+    }
+
+.app__cta-container_text div p {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.app__cta-container_img img {
+    position: absolute;
+    right: 6rem;
+    bottom: 0;
+}

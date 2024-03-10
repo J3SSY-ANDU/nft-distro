@@ -9,7 +9,7 @@ export function Explore() {
         <div className='app__explore section__padding'>
             <div className="app__explore-heading">
                 <h1>Explore</h1>
-                <div className='app__explore-heading_dropDown'>
+                <div>
                     <p>Recently Added</p>
                     <img src={dropDown} alt='drop-down arrow'/>
                 </div>
@@ -20,6 +20,9 @@ export function Explore() {
                         <Card cardImage={card.img} cardTitle={card.title} avatarImage={card.avatarImage} avatarName={card.avatarName} key={card.avatarName + index}/>
                     )
                 })}
+            </div>
+            <div className='app__explore-btn'>
+                <p>Discover more</p>
             </div>
         </div>
     )

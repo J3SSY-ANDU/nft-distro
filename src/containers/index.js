@@ -160,7 +160,7 @@ export const exploreList = [
         avatarName: "Perperzon",
     },
     {
-        img: exboot6,
+        img: blueWave4,
         title: "Figure #2",
         avatarImage: perperzonAvatar,
         avatarName: "Michael",
