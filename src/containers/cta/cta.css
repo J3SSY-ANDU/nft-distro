@@ -1,5 +1,5 @@
 .app__cta {
-    margin: 8rem 0 4rem 0;
+    margin-top: 6rem;
 }
 
 .app__cta-container {
@@ -46,7 +46,12 @@
     padding: 12px 24px;
     border-radius: 13px;
     cursor: pointer;
-    }
+    transition: all 0.5s ease;
+}
+
+.app__cta-container_text div:hover {
+    transform: scale(105%);
+}
 
 .app__cta-container_text div p {
     font-family: 'DM Sans';
