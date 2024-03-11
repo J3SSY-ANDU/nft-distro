@@ -15,6 +15,9 @@ import blueWave4 from '../assets/blueWave4.svg';
 import blueWave5 from '../assets/blueWave5.svg';
 import perperzonAvatar from '../assets/perperzon-avatar.svg';
 import richardAvatar from '../assets/richard-avatar.svg';
+import antonsonAvatar from '../assets/antonson-avatar.svg';
+import michaelAvatar from '../assets/michael-avatar.svg';
+import andersonAvatar from '../assets/anderson-avatar.svg';
 import ranking1 from '../assets/ranking1.svg';
 import ranking2 from '../assets/ranking2.svg';
 import ranking3 from '../assets/ranking3.svg';
@@ -41,7 +44,7 @@ export const cardsInfo = [
     },
     {
         img: futureOfPolygonX,
-        title: "Future of Polygon X",
+        title: "Future of Polygon X #1",
         avatarImage: richardAvatar,
         avatarName: "Richard"
     },
@@ -54,8 +57,8 @@ export const cardsInfo = [
     {
         img: blueWave2,
         title: "Blue Wave #2",
-        avatarImage: richardAvatar,
-        avatarName: "Richard"
+        avatarImage: andersonAvatar,
+        avatarName: "Anderson"
     }
 ]
 
@@ -106,14 +109,14 @@ export const rankingList = [
 
 export const exploreList = [
     {
-        img: exboot1,
-        title: "ExBoot #1",
+        img: exboot3,
+        title: "ExBoot #3",
         avatarImage: perperzonAvatar,
         avatarName: "Perperzon",
     },
     {
-        img: exboot3,
-        title: "ExBoot #3",
+        img: exboot1,
+        title: "ExBoot #1",
         avatarImage: perperzonAvatar,
         avatarName: "Perperzon",
     },
@@ -126,14 +129,14 @@ export const exploreList = [
     {
         img: blueWave1,
         title: "Blue Wave #1",
-        avatarImage: perperzonAvatar,
+        avatarImage: andersonAvatar,
         avatarName: "Anderson",
     },
     {
         img: exboot4,
-        title: "ExBoot #4",
-        avatarImage: perperzonAvatar,
-        avatarName: "Perperzon",
+        title: "Strange Art #2",
+        avatarImage: antonsonAvatar,
+        avatarName: "Antonson",
     },
     {
         img: exboot5,
@@ -149,32 +152,32 @@ export const exploreList = [
     },
     {
         img: blueWave3,
-        title: "Blue Wave #3",
-        avatarImage: richardAvatar,
-        avatarName: "Anderson",
+        title: "Strange Art #1",
+        avatarImage: antonsonAvatar,
+        avatarName: "Antonson",
     },
     {
         img: exboot6,
-        title: "ExBoot #6",
-        avatarImage: perperzonAvatar,
-        avatarName: "Perperzon",
+        title: "Strange Art #0",
+        avatarImage: antonsonAvatar,
+        avatarName: "Antonson",
     },
     {
         img: blueWave4,
-        title: "Figure #2",
-        avatarImage: perperzonAvatar,
-        avatarName: "Michael",
-    },
-    {
-        img: futureOfPolygonX4,
         title: "Future of Polygon #4",
         avatarImage: richardAvatar,
         avatarName: "Richard",
     },
     {
+        img: futureOfPolygonX4,
+        title: "Figure #2",
+        avatarImage: michaelAvatar,
+        avatarName: "Michael",
+    },
+    {
         img: blueWave5,
-        title: "Blue Wave #5",
-        avatarImage: richardAvatar,
-        avatarName: "Anderson",
+        title: "Figure #1",
+        avatarImage: michaelAvatar,
+        avatarName: "Michael",
     },
 ]
