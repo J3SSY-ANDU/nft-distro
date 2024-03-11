@@ -126,4 +126,95 @@
     color: #000000;
 }
 
+.app__header-backdrop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4.57051px 54.8461px rgba(197, 197, 197, 0.25);
+    border-radius: 11.4263px;
+    position: relative;
+    padding: 2rem;
+    width: 25%;
+}
+
+.app__header-backdrop > img {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    cursor: pointer;
+}
+
+.app__header-backdrop_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.app__header-backdrop_text h2 {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+
+.app__header-backdrop_text p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    width: 75%;
+    color: #000000;
+}
+
+.app__header-backdrop_buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.app__header-backdrop_buttons div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 19.007px 0;
+    gap: 1rem;
+    width: 100%;
+    background: linear-gradient(108.39deg, #FF56BB 6.99%, #FF8F77 119.86%);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.app__header-backdrop_buttons div:hover {
+    transform: scale(104%);
+}
+
+.app__header-backdrop_buttons div:nth-child(2) {
+    background: linear-gradient(108.39deg, #6E56FF 6.99%, #B073FF 119.86%);
+}
+
+.app__header-backdrop_buttons div:last-child {
+    background: linear-gradient(108.39deg, #56C2FF 6.99%, #48FE9C 119.86%);
+}
+
+.app__header-backdrop_buttons p {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
 

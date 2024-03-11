@@ -55,7 +55,7 @@ export function Footer() {
             <div className='app__footer-extra'>
                 <div className='app__footer-extra_copyright'>
                     <img src={copyright} alt='copyright'/>
-                    <p>Copyright NFT Distro 2023</p>
+                    <p>Copyright NFT Distro 2024</p>
                 </div>
                 <div className='app__footer-extra_socialMedia'>
                     <img src={facebook} alt='facebook'/>
