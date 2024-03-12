@@ -146,7 +146,7 @@ export const exploreList = [
     },
     {
         img: futureOfPolygonX3,
-        title: "Future of Polygon #3",
+        title: "Future of Polygon X #3",
         avatarImage: richardAvatar,
         avatarName: "Richard",
     },
@@ -164,7 +164,7 @@ export const exploreList = [
     },
     {
         img: blueWave4,
-        title: "Future of Polygon #4",
+        title: "Future of Polygon X #4",
         avatarImage: richardAvatar,
         avatarName: "Richard",
     },

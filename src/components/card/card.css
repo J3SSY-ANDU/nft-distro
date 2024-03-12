@@ -77,7 +77,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.1rem;
 }
 
 .app__card-content_info-right > p {
@@ -115,8 +114,8 @@
     }
 
     .app__card-content > p {
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 10px;
+        line-height: 16px;
     }
 
     .app__card-content_info-left {
@@ -124,7 +123,7 @@
     }
 
     .app__card-content_info-left img {
-        width: 25px;
+        width: 20px;
     }
 
     .app__card-content_info-left p {
@@ -133,7 +132,7 @@
     }
 
     .app__card-content_info-right p {
-        font-size: 8px;
+        font-size: 7px;
         line-height: 12px;
     }
 
@@ -142,7 +141,7 @@
     }
 
     .app__card-content_info-right > div p {
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 8px;
+        line-height: 12px;
     }
 }
