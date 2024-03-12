@@ -2,7 +2,12 @@
     padding: 4rem 12rem;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1900px) {
+    .section__padding {
+        padding: 4rem 24rem;
+    }
+}
+@media screen and (max-width: 1000px) {
     .section__padding {
         padding: 4rem 6rem;
     }

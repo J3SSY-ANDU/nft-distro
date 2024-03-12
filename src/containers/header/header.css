@@ -217,4 +217,27 @@
     color: #FFFFFF;
 }
 
+@media screen and (min-width: 1900px) {
+    .app__header-info_text h1 {
+        font-size: 66px;
+        line-height: 83px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .app__header {
+        flex-direction: column;
+    }
+
+    .app__header-info {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .app__header-image {
+        align-items: center;
+    }
+}
+
 
