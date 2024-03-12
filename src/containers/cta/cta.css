@@ -66,3 +66,43 @@
     right: 6rem;
     bottom: 0;
 }
+
+@media screen and (max-width: 1000px) {
+    .app__cta {
+        margin-top: 4rem;
+    }
+
+    .app__cta-container {
+        padding: 3rem;
+    }
+
+    .app__cta-container > img {
+        width: 130px;
+        left: -50px;
+        top: -50px;
+    }
+
+    .app__cta-container_text h1 {
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+    .app__cta-container_text div {
+        padding: 10px 14px;
+    }
+
+    .app__cta-container_text div img {
+        width: 12px;
+    }
+
+    .app__cta-container_text div p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .app__cta-container_img img {
+        width: 250px;
+        right: 3rem;
+    }
+
+}
