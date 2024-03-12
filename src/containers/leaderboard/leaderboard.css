@@ -88,3 +88,36 @@
 
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1000px) {
+    .app__leaderboard-container {
+        gap: 3rem;
+    }
+
+    .app__leaderboard-container_title h1 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .app__leaderboard-container_ranking {
+        gap: 1.5rem;
+    }
+
+    .app__leaderboard-container_ranking-rank > img {
+        width: 70px;
+    }
+
+    .app__leaderboard-container_ranking-rank div > p:first-child {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .app__leaderboard-container_ranking-rank div div img {
+        width: 10px;
+    }
+
+    .app__leaderboard-container_ranking-rank div div > p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
