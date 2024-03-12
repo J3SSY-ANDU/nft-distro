@@ -167,3 +167,62 @@
 .app__footer-extra_socialMedia img:hover {
     transform: scale(115%);
 }
+
+@media screen and (max-width: 1000px) {
+    .app__footer {
+        gap: 1.5rem;
+    }
+
+    .app__footer-logo img {
+        width: 18px;
+    }
+
+    .app__footer h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .app__footer p,
+    .app__footer h3 {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .app__footer-info_right-community div input {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .app__footer-info {
+        gap: 4rem;
+    }
+
+    .app__footer-info_right {
+        flex: 1.6;
+    }
+
+    .app__footer-info_right-community div {
+        padding: 10px 8px;
+        gap: 0.5rem;
+    }
+
+    .app__footer-info_right-community div input {
+        width: 120px;
+    }
+
+    .app__footer-info_right-community div div {
+        padding: 0.2rem;
+    }
+
+    .app__footer-info_right-community div div img {
+        width: 16px;
+    }
+
+    .app__footer-extra_copyright img {
+        width: 12px;
+    }
+
+    .app__footer-extra_socialMedia img {
+        width: 24px;
+    }
+}

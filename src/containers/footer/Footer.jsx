@@ -24,11 +24,11 @@ export function Footer() {
                 <div className='app__footer-info_left'>
                     <h2>NFT Distro</h2>
                     <p>Experience the Revolutionary World of Non-Fungible Tokens on Our Exclusive NFT Marketplace</p>
-                    <div>
+                    {/* <div>
                         <img src={light} alt='light icon'/>
                         <Switch size='small'/>
                         <img src={dark} alt='dark icon'/>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='app__footer-info_right'>
                     <div className='app__footer-info_right-company'>

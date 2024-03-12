@@ -82,6 +82,10 @@
         top: -50px;
     }
 
+    .app__cta-container_text {
+        gap: 1rem;
+    }
+
     .app__cta-container_text h1 {
         font-size: 40px;
         line-height: 56px;

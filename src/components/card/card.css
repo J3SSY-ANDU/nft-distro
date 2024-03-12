@@ -136,6 +136,10 @@
         line-height: 12px;
     }
 
+    .app__card-content_info-right div {
+        gap: 0.2rem;
+    }
+
     .app__card-content_info-right > div img {
         width: 8px;
     }
