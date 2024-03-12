@@ -24,7 +24,6 @@
 .app__featuredCard-image {
     height: 100%;
     width: 80%;
-    
 }
 
 .app__featuredCard-image img {
@@ -169,5 +168,91 @@
     line-height: 16px;
 
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 1000px) {
+    .app__featuredCard {
+        padding: 0.8rem;
+        gap: 1rem;
+        height: 200px;
+    }
+
+    .app__featuredCard-image {
+        width: 100%;
+    }
+
+    .app__featuredCard-content {
+        width: 55%;
+        gap: 0.6rem;
+        position: relative;
+    }
+
+    .app__featuredCard-content_avatar img {
+        width: 16px;
+    }
+
+    .app__featuredCard-content_avatar p {
+        font-size: 8px;
+        line-height: 14px;
+    }
+
+    .app__featuredCard-content_info {
+        gap: 0.4rem;
+    }
+
+    .app__featuredCard-content_info h1 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .app__featuredCard-content_info p,
+    .app__featuredCard-content_bid-left > p,
+    .app__featuredCard-content_bid-left p:last-child,
+    .app__featuredCard-content_bid-right > p:first-child,
+    .app__featuredCard-content_bid-right > p:last-child,
+    .app__featuredCard-content_info p:last-child {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .app__featuredCard-content_bid {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }
+
+    .app__featuredCard-content_bid-left,
+    .app__featuredCard-content_bid-right {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .app__featuredCard-content_bid-left div {
+        position: absolute;
+        right: 0;
+        gap: 0.1rem;
+    }
+
+    .app__featuredCard-content_bid-right p:last-child {
+        position: absolute;
+        right: 0;
+    }
+
+    .app__featuredCard-content_bid-left img {
+        width: 7px;
+    }
+
+    .app__featuredCard-content_btn {
+        padding: 6px 0;
+        gap: 0.3rem;
+    }
+
+    .app__featuredCard-content_btn img {
+        width: 8px;
+    }
+
+    .app__featuredCard-content_btn p {
+        font-size: 9px;
+    }
 }
 

@@ -111,7 +111,6 @@
     }
 
     .app__card-content {
-        gap: 0.4rem;
         margin-bottom: 0.6rem;
     }
 
@@ -120,13 +119,17 @@
         line-height: 20px;
     }
 
+    .app__card-content_info-left {
+        gap: 0.2rem;
+    }
+
     .app__card-content_info-left img {
         width: 25px;
     }
 
     .app__card-content_info-left p {
-        font-size: 10px;
-        line-height: 16px;
+        font-size: 8px;
+        line-height: 14px;
     }
 
     .app__card-content_info-right p {

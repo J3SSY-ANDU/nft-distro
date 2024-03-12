@@ -44,7 +44,7 @@ export const cardsInfo = [
     },
     {
         img: futureOfPolygonX,
-        title: "Future of Polygon X #1",
+        title: "Future of Polygon X",
         avatarImage: richardAvatar,
         avatarName: "Richard"
     },
