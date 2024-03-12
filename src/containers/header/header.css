@@ -226,7 +226,8 @@
 
 @media screen and (max-width: 1000px) {
     .app__header {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        gap: 2rem;
     }
 
     .app__header-info {
@@ -235,8 +236,48 @@
         width: 100%;
     }
 
+    .app__header-info_text h1 {
+        font-size: 50px;
+    }
+
+    .app__header-info_text p:first-child {
+        font-size: 8px;
+    }
+
+    .app__header-info_text p:last-child,
+    .app__header-info_text-button p {
+        font-size: 14px;
+    }
+
+    .app__header-info_text-button {
+        padding: 12px 6px;
+        width: 40%;
+    }
+
     .app__header-image {
-        align-items: center;
+        align-self: center;
+        width: 60%;
+    }
+
+    .big-ball {
+        width: 120px;
+        left: -60px;
+        bottom: -15px;
+    }
+
+    .small-ball {
+        width: 80px;
+        right: -30px;
+        top: -20px;
+    }
+
+    .app__header-image_info {
+        padding: 8px;
+        gap: 8px;
+    }
+
+    .app__header-image_info p {
+        font-size: 8px;
     }
 }
 
