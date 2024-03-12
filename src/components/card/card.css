@@ -103,3 +103,43 @@
 
     color: #000000;
 }
+
+@media screen and (max-width: 1000px) {
+    .app__card {
+        padding: 0.6rem;
+        gap: 0.6rem;
+    }
+
+    .app__card-content {
+        gap: 0.4rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .app__card-content > p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .app__card-content_info-left img {
+        width: 25px;
+    }
+
+    .app__card-content_info-left p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .app__card-content_info-right p {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .app__card-content_info-right > div img {
+        width: 8px;
+    }
+
+    .app__card-content_info-right > div p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
