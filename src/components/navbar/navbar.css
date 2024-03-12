@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .app__navbar-left {
@@ -78,13 +77,40 @@
 }
 
 @media screen and (max-width: 1000px) {
-    
+    .app__navbar-left_logo img {
+        width: 20px;
+    }
+
+    .app__navbar-left_logo,
+    .app__navbar-left_searchBar {
+        margin-right: 2rem;
+    }
+
+    .app__navbar-left_searchBar {
+        padding: 0.6rem 0.7rem;
+        gap: 0.5rem;
+    }
+
+    .app__navbar-left_searchBar img {
+        width: 20px;
+    }
+
+    .app__navbar-left_searchBar input {
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .app__navbar-links {
+        gap: 2rem;
+    }
+
+    .app__navbar-links > .link:nth-child(1), 
+    .app__navbar-links > .link:nth-child(2), 
+    .app__navbar-links > .link:nth-child(3) {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 750px) {
-
-}
-
-@media screen and (max-width: 1200px) {
 
 }
