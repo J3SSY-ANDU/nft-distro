@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nft-marketplace/static/css/main.60fff6c1.css",
-    "main.js": "/nft-marketplace/static/js/main.8d3be056.js",
+    "main.js": "/nft-marketplace/static/js/main.20e9309a.js",
     "static/media/exboot1.svg": "/nft-marketplace/static/media/exboot1.e7a7dd23a5fc87a859202305e28fa36b.svg",
     "static/media/header-image.svg": "/nft-marketplace/static/media/header-image.a76e0193546b2214d385fdfd2bfb80e2.svg",
     "static/media/exboot2.svg": "/nft-marketplace/static/media/exboot2.4d11ec4156c06c44d4f7c83bb3fd12d3.svg",
@@ -35,8 +35,10 @@
     "static/media/twitter.svg": "/nft-marketplace/static/media/twitter.ec76a46d325df8eb7f5eff768175658f.svg",
     "static/media/copyright.svg": "/nft-marketplace/static/media/copyright.b92e4a0f5c2fa456629cc240a92ca661.svg",
     "static/media/google.svg": "/nft-marketplace/static/media/google.ad7fc4ae27728d9d1fb2a8588677efec.svg",
+    "static/media/light.svg": "/nft-marketplace/static/media/light.16a85159c505509bc0c01eb231e67aea.svg",
     "index.html": "/nft-marketplace/index.html",
     "static/media/orangeCircle.svg": "/nft-marketplace/static/media/orangeCircle.ffeeb4aea85be1924282b70f2e8b081b.svg",
+    "static/media/dark.svg": "/nft-marketplace/static/media/dark.a0da956b395782b62653dead5f59be55.svg",
     "static/media/facebook.svg": "/nft-marketplace/static/media/facebook.b8e103eba9bf3dead6e0e90db9d7a725.svg",
     "static/media/dropDown.svg": "/nft-marketplace/static/media/dropDown.f0a6beaa3e6d04c3922a8ee9c9410c4d.svg",
     "static/media/apple.svg": "/nft-marketplace/static/media/apple.7f669d4f38114a089c2050e26a3c6f82.svg",
@@ -50,10 +52,10 @@
     "static/media/Polygon 1.svg": "/nft-marketplace/static/media/Polygon 1.6e6900b7a45f82c4b8f0a1bfcb8d1c0d.svg",
     "static/media/Polygon 3.svg": "/nft-marketplace/static/media/Polygon 3.84fb587f603a988a8d9ea0836fe7f05d.svg",
     "main.60fff6c1.css.map": "/nft-marketplace/static/css/main.60fff6c1.css.map",
-    "main.8d3be056.js.map": "/nft-marketplace/static/js/main.8d3be056.js.map"
+    "main.20e9309a.js.map": "/nft-marketplace/static/js/main.20e9309a.js.map"
   },
   "entrypoints": [
     "static/css/main.60fff6c1.css",
-    "static/js/main.8d3be056.js"
+    "static/js/main.20e9309a.js"
   ]
 }
