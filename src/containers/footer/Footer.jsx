@@ -3,15 +3,15 @@ import './footer.css';
 import logoFigure1 from '../../assets/logo/Polygon 1.svg';
 import logoFigure2 from '../../assets/logo/Polygon 2.svg';
 import logoFigure3 from '../../assets/logo/Polygon 3.svg';
-import light from '../../assets/light.svg';
-import dark from '../../assets/dark.svg';
+// import light from '../../assets/light.svg';
+// import dark from '../../assets/dark.svg';
 import arrowLeft from '../../assets/arrowLeft.svg';
 import copyright from '../../assets/copyright.svg';
 import facebook from '../../assets/facebook.svg';
 import google from '../../assets/google.svg';
 import twitter from '../../assets/twitter.svg';
 import apple from '../../assets/apple.svg';
-import { Switch } from '@mui/material';
+// import { Switch } from '@mui/material';
 export function Footer() {
     return (
         <div className='app__footer section__padding'>
