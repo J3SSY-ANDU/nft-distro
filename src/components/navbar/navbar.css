@@ -139,7 +139,7 @@
     .app__navbar-menu_container {
         position: absolute;
         right: 3rem;
-        top: 3.5rem;
+        top: 4.5rem;
         z-index: 100;
         display: flex;
         flex-direction: column;
