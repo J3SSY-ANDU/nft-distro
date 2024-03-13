@@ -98,3 +98,29 @@
         row-gap: 2rem;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .app__explore-heading h1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .app__explore-heading div p,
+    .app__explore-btn p {
+        font-size: 9px;
+        line-height: 14px;
+    }
+
+    .app__explore-heading div,
+    .app__explore-btn {
+        padding: 8px 12px;
+    }
+
+    .app__explore-heading div img {
+        width: 10px;
+    }
+
+    .app__explore-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
