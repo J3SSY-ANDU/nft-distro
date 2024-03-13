@@ -286,13 +286,17 @@
 }
 
 @media screen and (max-width: 500px) {
+    .app__header {
+        gap: 1rem;
+    }
+
     .app__header-image {
-        width: 100%;
+        width: 90%;
     }
 
     .app__header-info_text h1 {
-        font-size: 32px;
-        line-height: 45px;
+        font-size: 28px;
+        line-height: 40px;
     }
 
     .app__header-info_text p:first-child {
