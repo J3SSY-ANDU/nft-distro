@@ -1,7 +1,7 @@
 {
-  "name": "nft-marketplace",
+  "name": "nft-distro",
   "version": "0.1.0",
-  "homepage": "https://J3SSY-ANDU.github.io/nft-marketplace",
+  "homepage": "https://j3ssy-andu.github.io/nft-distro",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",

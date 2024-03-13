@@ -5,17 +5,7 @@ import Layout from './Layout';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-      <Route element={<Layout/>}>
-        <Route path='/' element={<Home />}/>
-        <Route path='/about' element={<About />}/>
-        <Route path='/explore' element={<Explore />}/>
-        <Route path='/FAQ' element={<FAQ />}/>
-        <Route path='/become-artist' element={<BecomeArtist />}/>
-      </Route>
-      </Routes>
-    </Router>
+    <Home />
   );
 }
 
