@@ -149,3 +149,42 @@
         line-height: 12px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .app__card {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .app__card-content {
+        margin-bottom: 1rem;
+    }
+
+    .app__card-content > p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .app__card-content_info-left {
+        gap: 0.4rem;
+    }
+
+    .app__card-content_info-left p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .app__card-content_info-right {
+        gap: 0.3rem;
+    }
+
+    .app__card-content_info-right p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .app__card-content_info-right > div p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
