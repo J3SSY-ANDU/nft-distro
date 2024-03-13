@@ -285,4 +285,30 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .app__header-image {
+        width: 100%;
+    }
+
+    .app__header-info_text h1 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .app__header-info_text p:first-child {
+        font-size: 6px;
+    }
+
+    .app__header-info_text p:last-child,
+    .app__header-info_text-button p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .app__header-info_text-button {
+        padding: 12px 6px;
+        width: 60%;
+    }
+}
+
 
