@@ -55,3 +55,14 @@
         line-height: 24px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .app__featuredCollections-title h1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .app__featuredCollections-cards {
+        flex-direction: column;
+    }
+}
