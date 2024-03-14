@@ -25,6 +25,7 @@
 
 .app__explore-heading > div {
     position: relative;
+    width: 120px;
 }
 
 .app__explore-heading > div,
@@ -98,6 +99,8 @@
     column-gap: 2rem;
     width: 100%;
     justify-content: space-between;
+    position: relative;
+    z-index: -1;
 }
 
 .app__explore-container > div {
