@@ -5,7 +5,7 @@ import { Card } from '../../components';
 
 export function Trending() {
     return (
-        <div className='app__trending section__padding'>
+        <div className='app__trending section__padding' id='trending'>
             <div className='app__trending-text'>
                 <h1>Trending Art 🔥</h1>
                 <p>Discover more</p>

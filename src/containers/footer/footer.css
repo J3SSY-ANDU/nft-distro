@@ -146,6 +146,11 @@
     gap: 1rem;
 }
 
+.app__footer-extra_copyright {
+    display: flex;
+    align-items: center;
+}
+
 .app__footer-extra_copyright img {
     width: 14px;
 }
@@ -249,6 +254,7 @@
 
     .app__footer-info_right-community div input {
         width: 100px;
+        margin-left: 0;
     }
 
     .app__footer-extra > div {
