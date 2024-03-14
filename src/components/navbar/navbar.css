@@ -162,8 +162,8 @@
         all: unset;
         font-family: 'DM Sans';
         font-weight: 400;
-        font-size: 12px;
-        line-height: 24px;
+        font-size: 14px;
+        line-height: 26px;
         color: #F3F3F3;
         cursor: pointer;
         transition: all 0.3s ease;

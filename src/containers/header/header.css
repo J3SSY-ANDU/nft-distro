@@ -299,19 +299,29 @@
         line-height: 40px;
     }
 
-    .app__header-info_text p:first-child {
-        font-size: 6px;
-    }
-
     .app__header-info_text p:last-child,
     .app__header-info_text-button p {
-        font-size: 12px;
-        line-height: 24px;
+        font-size: 14px;
+        line-height: 22px;
     }
 
     .app__header-info_text-button {
         padding: 12px 6px;
         width: 60%;
+    }
+
+    .app__header-backdrop {
+        width: 70%;
+        gap: 0.8rem;
+    }
+
+    .app__header-backdrop_text {
+        gap: 0.6rem;
+    }
+
+    .app__header-backdrop_text h2 {
+        font-size: 24px;
+        line-height: 24px;
     }
 }
 

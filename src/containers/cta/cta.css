@@ -118,7 +118,7 @@
     }
 
     .app__cta-container {
-        gap: 2rem;
+        gap: 4rem;
     }
 
     .app__cta-container > img {
@@ -135,21 +135,21 @@
     }
 
     .app__cta-container_text h1 {
-        font-size: 28px;
-        line-height: 40px;
+        font-size: 36px;
+        line-height: 48px;
     }
 
     .app__cta-container_text div {
-        padding: 8px 12px;
+        padding: 10px 14px;
     }
 
     .app__cta-container_text div img {
-        width: 10px;
+        width: 12px;
     }
 
     .app__cta-container_text div p {
-        font-size: 9px;
-        line-height: 12px;
+        font-size: 12px;
+        line-height: 14px;
     }
 
     .app__cta-container_img {
@@ -161,6 +161,6 @@
         position: relative;
         bottom: 0;
         right: 0;
-        width: 120px;
+        width: 160px;
     }
 }

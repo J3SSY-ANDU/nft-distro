@@ -31,9 +31,9 @@ export function Navbar() {
                 <a href="/" className="link">FAQ</a>
             </div>
             <div className="app__navbar-menu">
-                {!toggleMenu ? <MenuIcon fontSize="small"  onClick={() => setToggleMenu(true)}/> : 
+                {!toggleMenu ? <MenuIcon fontSize="medium"  onClick={() => setToggleMenu(true)}/> : 
                     <div className="app__navbar-menu_container">
-                        <CloseIcon className="close-icon" fontSize="small" onClick={() => setToggleMenu(false)}/>
+                        <CloseIcon className="close-icon" fontSize="medium" onClick={() => setToggleMenu(false)}/>
                         <a href="explore" className="link">Explore</a>
                         <a href="trending" className="link">Trending 🔥</a>
                         <a href="/" className="link">FAQ</a>
