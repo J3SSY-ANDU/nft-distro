@@ -106,13 +106,13 @@
     }
     .app__explore-heading div p,
     .app__explore-btn p {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 16px;
     }
 
     .app__explore-heading div,
     .app__explore-btn {
-        padding: 8px 12px;
+        padding: 10px 16px;
     }
 
     .app__explore-heading div img {
