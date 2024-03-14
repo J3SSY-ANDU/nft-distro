@@ -13,7 +13,7 @@ const Loader = () => {
                 const newProgress = prevProgress + 10;
                 return newProgress >= 100 ? 100 : newProgress;
             });
-        }, 250);
+        }, 450);
 
         return () => {
             clearInterval(timer);
