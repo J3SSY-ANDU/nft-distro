@@ -226,3 +226,36 @@
         width: 24px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .app__footer {
+        gap: 1rem;
+    }
+
+    .app__footer-info {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .app__footer-info_right {
+        width: 100%;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .app__footer-info_right-community div {
+        padding: 6px;
+    }
+
+    .app__footer-info_right-community div input {
+        width: 100px;
+    }
+
+    .app__footer-extra > div {
+        gap: 0.6rem;
+    }
+
+    .app__footer-extra p {
+        font-size: 8px;
+    }
+}
