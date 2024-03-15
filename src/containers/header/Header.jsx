@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './header.css';
 import walletImage from '../../assets/wallet.svg';
-import headerImage from '../../assets/header-image.svg';
+import headerImage from '../../assets/header-image.png';
 import ballImage from '../../assets/ball.svg';
 import avatarImage from '../../assets/perperzon-avatar.svg';
 import backgroundImage from '../../assets/header-background.svg';

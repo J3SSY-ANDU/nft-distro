@@ -1,7 +1,7 @@
 import React from 'react';
 import './cta.css';
 import download from '../../assets/download.svg';
-import ctaImage from '../../assets/ctaImage.svg';
+import ctaImage from '../../assets/ctaImage.png';
 import ball from '../../assets/ball.svg';
 
 export function CTA() {

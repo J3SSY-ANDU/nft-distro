@@ -1,5 +1,5 @@
-import exboot1 from '../assets/exboot1.svg';
-import exboot2 from '../assets/exboot2.svg';
+import exboot1 from '../assets/header-image.png';
+import exboot2 from '../assets/exboot2.png';
 import exboot3 from '../assets/exboot3.svg';
 import exboot4 from '../assets/exboot4.svg';
 import exboot5 from '../assets/exboot5.svg';

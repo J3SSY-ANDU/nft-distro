@@ -4,6 +4,7 @@ import React, {useState, useEffect} from 'react';
 import { Home, About, Explore, FAQ, BecomeArtist } from './pages';
 // import Layout from './Layout';
 import Loader from './components/loader/Loader';
+import { Fade } from '@mui/material';
 
 function App() {
   const [loader, setLoader] = useState(true);
@@ -11,12 +12,18 @@ function App() {
     useEffect(() => {
         setTimeout(() => {
             setLoader(false);
-        }, 5000)
+        }, 2100)
     }, [])
 
   return (
-      loader ? <Loader /> : <Home />
-  );
+          loader ? 
+          <Loader /> : 
+          <Fade in={!loader} timeout={{ enter: 2000 }} style={{transitionDelay: '500ms'}}>
+            <div>
+              <Home />
+            </div> 
+          </Fade>
+      );
 }
 
 export default App;
