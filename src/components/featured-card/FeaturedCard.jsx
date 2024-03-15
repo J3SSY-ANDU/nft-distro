@@ -2,15 +2,16 @@ import React from 'react';
 import './featuredCard.css';
 import wallet from '../../assets/wallet.svg';
 import coinSymbol from '../../assets/darkCoin.svg';
+
 export function FeaturedCard({ collectionImage, avatarImage, avatarName, collectionTitle, description }) {
     return (
         <div className='app__featuredCard'>
             <div className='app__featuredCard-image'>
-                <img src={collectionImage} alt="exboot #1"/>
+                <img src={collectionImage} alt="exboot #1" loading="lazy"/>
             </div>
             <div className="app__featuredCard-content">
                 <div className='app__featuredCard-content_avatar'>
-                    <img src={avatarImage} alt="avatar img"/>
+                    <img src={avatarImage} alt="avatar img" loading="lazy"/>
                     <p>{avatarName}</p>
                 </div>
                 <div className='app__featuredCard-content_info'>
@@ -22,7 +23,7 @@ export function FeaturedCard({ collectionImage, avatarImage, avatarName, collect
                     <div className='app__featuredCard-content_bid-left'>
                         <p>Current Bid</p>
                         <div>
-                            <img src={coinSymbol} alt='coin symbol'/>
+                            <img src={coinSymbol} alt='coin symbol' loading="lazy"/>
                             <p>3.421</p>
                         </div>
                     </div>
@@ -32,7 +33,7 @@ export function FeaturedCard({ collectionImage, avatarImage, avatarName, collect
                     </div>
                 </div>
                 <div className='app__featuredCard-content_btn'>
-                    <img src={wallet} alt='wallet'/>
+                    <img src={wallet} alt='wallet' loading="lazy"/>
                     <p>Place Bid</p>
                 </div>
             </div>
