@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './header.css';
 import walletImage from '../../assets/wallet.svg';
 import headerImage from '../../assets/header-image.png';
@@ -10,6 +10,15 @@ import { Backdrop } from '@mui/material';
 
 export function Header() {
     const [toggleWallet, setToggleWallet] = useState(false);
+    const [headerImageLoaded, setHeaderImageLoaded] = useState(false);
+
+    useEffect(() => {
+        const img = new Image();
+        img.src = headerImage;
+        img.onload = () => {
+            setHeaderImageLoaded(true);
+        };
+    }, []);
 
     return (
         <div className='app__header section__padding' style={{background: `url(${backgroundImage})`}}>
@@ -25,7 +34,7 @@ export function Header() {
                 </div>
             </div>
             <div className='app__header-image'>
-                <img src={headerImage} alt='ExBoot #1' fetchPriority='high'/>
+                {headerImageLoaded && <img src={headerImage} alt='ExBoot #1' fetchPriority='high' />}
                 <img src={ballImage} alt='big ball' className='big-ball'/>
                 <img src={ballImage} alt='small ball' className='small-ball' />
                 <div className='app__header-image_info'>

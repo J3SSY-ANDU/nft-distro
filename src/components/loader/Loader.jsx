@@ -10,10 +10,10 @@ const Loader = () => {
     useEffect(() => {
         const timer = setInterval(() => {
             setProgress((prevProgress) => {
-                const newProgress = prevProgress + 1;
+                const newProgress = prevProgress + 10;
                 return newProgress >= 100 ? 100 : newProgress;
             });
-        }, 15);
+        }, 160);
 
         return () => {
             clearInterval(timer);
