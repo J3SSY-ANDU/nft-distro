@@ -18,7 +18,7 @@ function App() {
   return (
           loader ? 
           <Loader /> : 
-          <Fade in={!loader} timeout={{ enter: 2000 }} style={{transitionDelay: '500ms'}}>
+          <Fade in={!loader} timeout={{ enter: 2000 }}>
             <div>
               <Home />
             </div> 

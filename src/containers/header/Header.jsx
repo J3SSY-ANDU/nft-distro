@@ -25,7 +25,7 @@ export function Header() {
                 </div>
             </div>
             <div className='app__header-image'>
-                <img src={headerImage} alt='ExBoot #1'/>
+                <img src={headerImage} alt='ExBoot #1' fetchPriority='high'/>
                 <img src={ballImage} alt='big ball' className='big-ball'/>
                 <img src={ballImage} alt='small ball' className='small-ball' />
                 <div className='app__header-image_info'>

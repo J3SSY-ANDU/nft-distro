@@ -1,4 +1,4 @@
-import exboot1 from '../assets/header-image.png';
+import exboot1 from '../assets/exboot1.png';
 import exboot2 from '../assets/exboot2.png';
 import exboot3 from '../assets/exboot3.svg';
 import exboot4 from '../assets/exboot4.png';
@@ -18,11 +18,11 @@ import richardAvatar from '../assets/richard-avatar.png';
 import antonsonAvatar from '../assets/antonson-avatar.png';
 import michaelAvatar from '../assets/michael-avatar.png';
 import andersonAvatar from '../assets/anderson-avatar.png';
-import ranking1 from '../assets/ranking1.svg';
-import ranking2 from '../assets/ranking2.svg';
-import ranking3 from '../assets/ranking3.svg';
-import ranking4 from '../assets/ranking4.svg';
-import ranking5 from '../assets/ranking5.svg';
+import ranking1 from '../assets/ranking1.png';
+import ranking2 from '../assets/ranking2.png';
+import ranking3 from '../assets/ranking3.png';
+import ranking4 from '../assets/ranking4.png';
+import ranking5 from '../assets/ranking5.png';
 
 
 export { Header } from './header/Header';
