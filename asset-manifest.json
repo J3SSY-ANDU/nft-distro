@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nft-distro/static/css/main.1c0b6b9f.css",
-    "main.js": "/nft-distro/static/js/main.cbac6981.js",
+    "main.js": "/nft-distro/static/js/main.e9e13d0e.js",
     "static/media/exboot1.svg": "/nft-distro/static/media/exboot1.e7a7dd23a5fc87a859202305e28fa36b.svg",
     "static/media/header-image.svg": "/nft-distro/static/media/header-image.a76e0193546b2214d385fdfd2bfb80e2.svg",
     "static/media/exboot2.svg": "/nft-distro/static/media/exboot2.4d11ec4156c06c44d4f7c83bb3fd12d3.svg",
@@ -50,10 +50,10 @@
     "static/media/Polygon 1.svg": "/nft-distro/static/media/Polygon 1.6e6900b7a45f82c4b8f0a1bfcb8d1c0d.svg",
     "static/media/Polygon 3.svg": "/nft-distro/static/media/Polygon 3.84fb587f603a988a8d9ea0836fe7f05d.svg",
     "main.1c0b6b9f.css.map": "/nft-distro/static/css/main.1c0b6b9f.css.map",
-    "main.cbac6981.js.map": "/nft-distro/static/js/main.cbac6981.js.map"
+    "main.e9e13d0e.js.map": "/nft-distro/static/js/main.e9e13d0e.js.map"
   },
   "entrypoints": [
     "static/css/main.1c0b6b9f.css",
-    "static/js/main.cbac6981.js"
+    "static/js/main.e9e13d0e.js"
   ]
 }
