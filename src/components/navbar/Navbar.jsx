@@ -15,9 +15,9 @@ export function Navbar() {
         <div className="app__navbar section__padding" style={{background: `url(${backgroundImage})`}}>
             <div className="app__navbar-left">
                 <a className="app__navbar-left_logo" href="#">
-                    <img src={logoFigure1} alt="logo Figure 1" loading="lazy"/>
-                    <img src={logoFigure2} alt="logo figure 2" loading="lazy"/>
-                    <img src={logoFigure3} alt="logo figure 3" loading="lazy"/>
+                    <img src={logoFigure1} alt="logo Figure 1" />
+                    <img src={logoFigure2} alt="logo figure 2" />
+                    <img src={logoFigure3} alt="logo figure 3" />
                 </a>
                 <div className="app__navbar-left_searchBar">
                     <img src={searchIcon} alt="search icon"/>
