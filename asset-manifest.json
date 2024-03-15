@@ -1,12 +1,7 @@
 {
   "files": {
     "main.css": "/nft-distro/static/css/main.1c0b6b9f.css",
-    "main.js": "/nft-distro/static/js/main.e5e8e9a7.js",
-    "static/media/ranking1.svg": "/nft-distro/static/media/ranking1.1543ebbac2b946115b4e0fde57348aac.svg",
-    "static/media/ranking2.svg": "/nft-distro/static/media/ranking2.078dc2ce47e7dec3ac274b79eab5837a.svg",
-    "static/media/ranking4.svg": "/nft-distro/static/media/ranking4.dfcfe8967f7babc9229ff69f09c1c588.svg",
-    "static/media/ranking3.svg": "/nft-distro/static/media/ranking3.688da546054f801b1f01f7fe96ef48f3.svg",
-    "static/media/ranking5.svg": "/nft-distro/static/media/ranking5.29acb8d5e97b1d8427337e2a2902892d.svg",
+    "main.js": "/nft-distro/static/js/main.83d15430.js",
     "static/media/exboot3.svg": "/nft-distro/static/media/exboot3.fe7e7b9b0aee3069e10e579adab8e3ee.svg",
     "static/media/futureOfPolygonX4.svg": "/nft-distro/static/media/futureOfPolygonX4.a5fca9940866c22a00be201db864efbf.svg",
     "static/media/exboot5.svg": "/nft-distro/static/media/exboot5.6d58d2ab48b3fa71a7dd177b5ee16fd0.svg",
@@ -43,10 +38,10 @@
     "static/media/Polygon 1.svg": "/nft-distro/static/media/Polygon 1.6e6900b7a45f82c4b8f0a1bfcb8d1c0d.svg",
     "static/media/Polygon 3.svg": "/nft-distro/static/media/Polygon 3.84fb587f603a988a8d9ea0836fe7f05d.svg",
     "main.1c0b6b9f.css.map": "/nft-distro/static/css/main.1c0b6b9f.css.map",
-    "main.e5e8e9a7.js.map": "/nft-distro/static/js/main.e5e8e9a7.js.map"
+    "main.83d15430.js.map": "/nft-distro/static/js/main.83d15430.js.map"
   },
   "entrypoints": [
     "static/css/main.1c0b6b9f.css",
-    "static/js/main.e5e8e9a7.js"
+    "static/js/main.83d15430.js"
   ]
 }
