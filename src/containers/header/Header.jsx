@@ -20,16 +20,16 @@ export function Header() {
                     <p>Experience the Revolutionary World of Non-Fungible Tokens on Our Exclusive NFT Marketplace</p>
                 </div>
                 <div className='app__header-info_text-button' onClick={() => setToggleWallet(true)}>
-                    <img src={walletImage} alt='wallet'/>
+                    <img src={walletImage} alt='wallet' loading="lazy"/>
                     <p>Connect Wallet</p>
                 </div>
             </div>
             <div className='app__header-image'>
-                <img src={headerImage} alt='ExBoot #1'/>
-                <img src={ballImage} alt='big ball' className='big-ball'/>
-                <img src={ballImage} alt='small ball' className='small-ball' />
+                <img src={headerImage} alt='ExBoot #1' loading="lazy"/>
+                <img src={ballImage} alt='big ball' className='big-ball' loading="lazy"/>
+                <img src={ballImage} alt='small ball' className='small-ball' loading="lazy" />
                 <div className='app__header-image_info'>
-                    <img src={avatarImage} alt='perperzon avatar'/>
+                    <img src={avatarImage} alt='perperzon avatar' loading="lazy"/>
                     <p>Perperzon</p>
                 </div>
             </div>

@@ -13,11 +13,11 @@ export function Leaderboard() {
                     {rankingList.map((rank, index) => {
                         return (
                             <div className='app__leaderboard-container_ranking-rank' key={rank.avatarName + index}>
-                                <img src={rank.rankingImage} alt='ranking #1'/>
+                                <img src={rank.rankingImage} alt='ranking #1' loading="lazy"/>
                                 <div>
                                     <p>{rank.avatarName}</p>
                                     <div>
-                                        <img src={whiteCoin} alt='coin symbol'/>
+                                        <img src={whiteCoin} alt='coin symbol' loading="lazy"/>
                                         <p>{rank.coinAmount}</p>
                                     </div>
                                 </div>

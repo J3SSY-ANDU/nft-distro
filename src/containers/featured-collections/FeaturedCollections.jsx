@@ -11,7 +11,7 @@ export function FeaturedCollections() {
             </div>
             <div className='app__featuredCollections-cards'>
                 <div>
-                    <img src={orangeCircle} alt='decoration circle'/>
+                    <img src={orangeCircle} alt='decoration circle' loading="lazy"/>
                 </div>
                 {collectionsInfo.map((collection, index) => {
                     return (
@@ -19,7 +19,7 @@ export function FeaturedCollections() {
                     )
                 })}
                 <div>
-                    <img src={orangeCircle} alt='decoration circle'/>
+                    <img src={orangeCircle} alt='decoration circle' loading="lazy"/>
                 </div>
             </div>
         </div>

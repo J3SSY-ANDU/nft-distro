@@ -3,32 +3,25 @@ import './footer.css';
 import logoFigure1 from '../../assets/logo/Polygon 1.svg';
 import logoFigure2 from '../../assets/logo/Polygon 2.svg';
 import logoFigure3 from '../../assets/logo/Polygon 3.svg';
-// import light from '../../assets/light.svg';
-// import dark from '../../assets/dark.svg';
 import arrowLeft from '../../assets/arrowLeft.svg';
 import copyright from '../../assets/copyright.svg';
 import facebook from '../../assets/facebook.svg';
 import google from '../../assets/google.svg';
 import twitter from '../../assets/twitter.svg';
 import apple from '../../assets/apple.svg';
-// import { Switch } from '@mui/material';
+
 export function Footer() {
     return (
         <div className='app__footer section__padding'>
             <div className='app__footer-logo'>
-                <img src={logoFigure1} alt='figure 1'/>
-                <img src={logoFigure2} alt='figure 2'/>
-                <img src={logoFigure3} alt='figure 3'/>
+                <img src={logoFigure1} alt='figure 1' loading="lazy"/>
+                <img src={logoFigure2} alt='figure 2' loading="lazy"/>
+                <img src={logoFigure3} alt='figure 3' loading="lazy"/>
             </div>
             <div className='app__footer-info'>
                 <div className='app__footer-info_left'>
                     <h2>NFT Distro</h2>
                     <p>Experience the Revolutionary World of Non-Fungible Tokens on Our Exclusive NFT Marketplace</p>
-                    <div>
-                        {/* <img src={light} alt='light icon'/>
-                        <Switch size='small'/>
-                        <img src={dark} alt='dark icon'/> */}
-                    </div>
                 </div>
                 <div className='app__footer-info_right'>
                     <div className='app__footer-info_right-company'>
