@@ -1,24 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './header.css';
 import walletImage from '../../assets/wallet.svg';
-import headerImage from '../../assets/header-image.webp';
-import ballImage from '../../assets/ball.png';
 import avatarImage from '../../assets/perperzon-avatar.png';
 import backgroundImage from '../../assets/header-background.svg';
 import closeSymbol from '../../assets/close.svg';
 import { Backdrop } from '@mui/material';
 
-export function Header() {
+export function Header({headerImage, ballImage}) {
     const [toggleWallet, setToggleWallet] = useState(false);
-    const [headerImageLoaded, setHeaderImageLoaded] = useState(false);
-
-    useEffect(() => {
-        const img = new Image();
-        img.src = headerImage;
-        img.onload = () => {
-            setHeaderImageLoaded(true);
-        };
-    }, []);
 
     return (
         <div className='app__header section__padding' style={{background: `url(${backgroundImage})`}}>
@@ -34,11 +23,11 @@ export function Header() {
                 </div>
             </div>
             <div className='app__header-image'>
-                {headerImageLoaded && <img src={headerImage} alt='ExBoot #1' fetchPriority='high' />}
+                <img src={headerImage} alt='ExBoot #1' fetchpriority='high' />
                 <img src={ballImage} alt='big ball' className='big-ball'/>
                 <img src={ballImage} alt='small ball' className='small-ball' />
                 <div className='app__header-image_info'>
-                    <img src={avatarImage} alt='perperzon avatar' loading="lazy"/>
+                    <img src={avatarImage} alt='perperzon avatar'/>
                     <p>Perperzon</p>
                 </div>
             </div>
